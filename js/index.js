@@ -122,9 +122,6 @@
 //   console.log(i);
 //   i++;
 // } while (i <= 10);
-// {
-// }
-
 
 // // 12-masala
 // let i = 20;
@@ -132,9 +129,6 @@
 //   console.log(i);
 //   i--;
 // } while (i >= 1);
-// {
-// }
-
 
 
 // 13-masala
@@ -145,8 +139,7 @@
 //     }
 //     i++;
 // } while (i <= 100);
-// {
-// }
+
 
 
 
@@ -164,18 +157,84 @@
 // while (a>0) {
 // }
 
-
-
 // 15-masala
 // let a = +prompt("sonni kiritng");
 
-do{
-    let a = +prompt("sonni kiritng");
+// do{
+//     let a = +prompt("sonni kiritng");
 
-    if (a==10) {
-        break
-    }
-    console.log(a);
-}
-while (a>0) {
-}
+//     if (a==10) {
+//         break
+//     }
+//     console.log(a);
+// }
+// while (a>0) {
+// }
+
+// umumiy masalalar
+// 1-masala
+// for (let i = 1; i <=50; i++) {
+//     if (i%5==0 && i%7==0) {
+//         console.log("5ga va 7ga karrali");
+//         continue
+//     }
+//     if (i%5==0) {
+//         console.log("5ga karrali");
+//         continue
+//     }
+//     if (i%7==0) {
+//         console.log("7ga karrali");
+//         continue
+//     }
+
+//     console.log(i);
+// }
+
+// 2-masala
+// for (let i = 1; i <= 12; i++) {
+//   console.log(i);
+//   switch (i) {
+//     case 1:
+//       console.log("yanvar");
+//       break;
+//     case 2:
+//       console.log("fevral");
+//       break;
+//     case 3:
+//       console.log("mart");
+//       break;
+//     case 4:
+//       console.log("aprel");
+//       break;
+//     case 5:
+//       console.log("may");
+//       break;
+//     case 6:
+//       console.log("iyun");
+//       break;
+//     case 7:
+//       console.log("iyul");
+//       break;
+//     case 8:
+//       console.log("avgust");
+//       break;
+//     case 9:
+//       console.log("sentyabr");
+//       break;
+//     case 10:
+//       console.log("oktyabr");
+//       break;
+//     case 11:
+//       console.log("noyabr");
+//       break;
+//     case 12:
+//       console.log("dekabr");
+//       break;
+
+//     default:
+//       console.log("eror");
+//       break;
+//   }
+// }
+
+// 3-masala
