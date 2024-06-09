@@ -130,7 +130,6 @@
 //   i--;
 // } while (i >= 1);
 
-
 // 13-masala
 // let i = 1;
 // do {
@@ -139,9 +138,6 @@
 //     }
 //     i++;
 // } while (i <= 100);
-
-
-
 
 // 14-masala
 // let a = +prompt("sonni kiritng");
@@ -238,3 +234,90 @@
 // }
 
 // 3-masala
+
+// 4-masala
+// let i = 1;
+// while (i <= 7) {
+//   console.log(i);
+
+//   switch (i) {
+//     case 1:
+//       console.log("Duyshanba");
+//       break;
+//     case 2:
+//       console.log("Seyshanba");
+//       break;
+//     case 3:
+//       console.log("Chorshanba");
+//       break;
+//     case 4:
+//       console.log("Payshanba");
+//       break;
+//     case 5:
+//       console.log("Juma");
+//       break;
+//     case 6:
+//       console.log("Shanba");
+//       break;
+//     case 7:
+//       console.log("Yakshanba");
+//       break;
+
+//     default:
+//       console.log(eror);
+//       break;
+//   }
+//   i++;
+// }
+
+// 5-masala
+
+// do{
+//     let a = +prompt('sonni kiritng');
+
+//     if (a>0) {
+//         console.log("musbat");
+//     }
+//     if (a<0) {
+//         console.log("manfiy");
+//     }
+// }while (a==0)
+
+// 6-masala
+// do {
+//   let son = +prompt("sonni kiritng");
+//   if (son>0) {
+//     switch (son) {
+//         case 1:
+//           console.log("Duyshanba");
+//           break;
+//         case 2:
+//           console.log("Seyshanba");
+//           break;
+//         case 3:
+//           console.log("Chorshanba");
+//           break;
+//         case 4:
+//           console.log("Payshanba");
+//           break;
+//         case 5:
+//           console.log("Juma");
+//           break;
+//         case 6:
+//           console.log("Shanba");
+//           break;
+//         case 7:
+//           console.log("Yakshanba");
+//           break;
+    
+//         default:
+//           console.log("eror");
+//           break;
+//       }
+//   }
+//   if (son==0) {
+//     break
+//   }
+//   son==son
+// } while (son == 0);
+
