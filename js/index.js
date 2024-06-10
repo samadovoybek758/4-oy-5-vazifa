@@ -309,7 +309,7 @@
 //         case 7:
 //           console.log("Yakshanba");
 //           break;
-    
+
 //         default:
 //           console.log("eror");
 //           break;
@@ -321,3 +321,95 @@
 //   son==son
 // } while (son == 0);
 
+// 7-masala
+// for (let i = 1; i <=100; i++) {
+//     if (i%3==0 && i%5==0) {
+//         console.log("FizzBuzz");
+//         continue
+//     }
+//     if (i%3==0) {
+//         console.log("Fizz");
+//         continue
+//     }
+//     if (i%5==0) {
+//         console.log("Buzz");
+//         continue
+//     }
+
+//     console.log(i);
+// }
+
+// 8-masala
+// let a = +prompt("sonni kiritng");
+// while (a>0) {
+
+//     let a = +prompt("sonni kiritng");
+
+//     if (a>10 || a%5==0) {
+//         console.log(a);
+//     }
+//     if (a>100) {
+//         break
+//     }
+
+// }
+
+// 9-masala
+// let a = +prompt("sonni kiritng");
+// while (a>0) {
+
+//     let a = +prompt("sonni kiritng");
+
+//     if (a<10 && a>1) {
+//         console.log(a);
+//     }
+//     if (a==0) {
+//         break
+//     }
+
+// }
+
+// 10-masala
+for (let i = 1; i <= 30; i++) {
+  switch (i) {
+    case 1:
+    case 3:
+    case 5:
+    case 7:
+    case 9:
+    case 11:
+    case 13:
+    case 17:
+    case 19:
+    case 21:
+    case 23:
+    case 25:
+    case 27:
+    case 29:
+      console.log("toq");
+      break;
+    case 2:
+    case 4:
+    case 6:
+    case 8:
+    case 10:
+    case 12:
+    case 14:
+    case 16:
+    case 18:
+    case 20:
+    case 22:
+    case 24:
+    case 26:
+    case 28:
+    case 30:
+      console.log("juft");
+      break;
+    case 15:
+      console.log("ortacha son");
+      break;
+    default:
+      console.log("eror");
+      break;
+  }
+}
