@@ -370,46 +370,86 @@
 // }
 
 // 10-masala
-for (let i = 1; i <= 30; i++) {
-  switch (i) {
-    case 1:
-    case 3:
-    case 5:
-    case 7:
-    case 9:
-    case 11:
-    case 13:
-    case 17:
-    case 19:
-    case 21:
-    case 23:
-    case 25:
-    case 27:
-    case 29:
-      console.log("toq");
-      break;
-    case 2:
-    case 4:
-    case 6:
-    case 8:
-    case 10:
-    case 12:
-    case 14:
-    case 16:
-    case 18:
-    case 20:
-    case 22:
-    case 24:
-    case 26:
-    case 28:
-    case 30:
-      console.log("juft");
-      break;
-    case 15:
-      console.log("ortacha son");
-      break;
-    default:
-      console.log("eror");
-      break;
-  }
+// for (let i = 1; i <= 30; i++) {
+//   switch (i) {
+//     case 1:
+//     case 3:
+//     case 5:
+//     case 7:
+//     case 9:
+//     case 11:
+//     case 13:
+//     case 17:
+//     case 19:
+//     case 21:
+//     case 23:
+//     case 25:
+//     case 27:
+//     case 29:
+//       console.log("toq");
+//       break;
+//     case 2:
+//     case 4:
+//     case 6:
+//     case 8:
+//     case 10:
+//     case 12:
+//     case 14:
+//     case 16:
+//     case 18:
+//     case 20:
+//     case 22:
+//     case 24:
+//     case 26:
+//     case 28:
+//     case 30:
+//       console.log("juft");
+//       break;
+//     case 15:
+//       console.log("ortacha son");
+//       break;
+//     default:
+//       console.log("eror");
+//       break;
+//   }
+// }
+
+
+
+// 13-masala
+// for (let i = 1; i <=50; i++) {
+//   if (i%4==0 && i%2==0) {
+//     console.log("Special number");
+//   }
+//   console.log(i);
+  
+// }
+
+
+// // 14-masala
+//  let a = +prompt("sonnikiritng")
+
+//  while (a!=0) {
+//   let a = +prompt("sonnikiritng")
+//   if (a%7==0 || a%3==0) {
+//     console.log(a);
+//   }
+//   if (a==0) {
+//     break
+//   }
+//  }
+
+
+
+// 15-masala
+let a = +prompt("sonnikiritng")
+
+while (a!=0) {
+ let a = +prompt("sonnikiritng")
+ if (a>0 && a%10!=0) {
+   console.log(a);
+ }
+ if (a<0) {
+   break
+ }
 }
